@@ -1,38 +1,170 @@
-.App {
+
+/*.signUpContainer {
+  width: 522px;
+  height: 640px;
+  margin-top: 150px;
+  margin-left: 550px;
+  padding: 20px;
+  background-color: #d40776;
   text-align: center;
+  border-radius: 15px;
+}
+.signUpContainer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.signUpContainer p {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 10px;
+}
+.signUpContainer input {
+  display: block;
+  width: 380px;
+  height: 45px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border-style: none;
+  margin-left: 67px;
+  margin-right: 67px;
+  padding-left: 12px;
+  color: black;
+}
+.signUpContainer input::placeholder {
+  color: rgb(58, 57, 57);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.signUp-divider {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
   color: white;
+  margin-left: 68px;
+  margin-right: 62px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.signUp-divider hr {
+  flex: 1;
+  border: none;
+  height: 1px;
+  background: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signUp-divider span {
+  padding: 0 20px;
 }
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.facebook-icon {
+  width: 70px;
+  height: 41px;
+}
+.google-icon {
+  width: 40px;
+  height: 40px;
+}
+.signUp-btn {
+  width: 380px;
+  height: 50px;
+  background-color: rgb(15, 171, 214);
+  border-style: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}*/
+/*Sign In Page*/
+
+/*.signInContainer {
+  width: 522px;
+  height: 400px;
+  margin-top: 150px;
+  margin-left: 550px;
+  padding: 20px;
+  background-color: #d40776;
+  text-align: center;
+  border-radius: 15px;
+}
+.signInContainer {
+  width: 522px;
+  height: 540px;
+  margin-top: 150px;
+  margin-left: 550px;
+  padding: 20px;
+  background-color: #d40776;
+  text-align: center;
+  border-radius: 15px;
+}
+.signInContainer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.signInContainer p {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 10px;
+}
+.signInContainer input {
+  display: block;
+  width: 380px;
+  height: 45px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border-style: none;
+  margin-left: 67px;
+  margin-right: 67px;
+  padding-left: 12px;
+  color: black;
+}
+.signInContainer input::placeholder {
+  color: rgb(58, 57, 57);
+}
+.signIn-btn {
+  width: 380px;
+  height: 50px;
+  background-color: rgb(15, 171, 214);
+  border-style: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.forgot-password {
+  color: white;
+  font-size: 15px;
+  float: right;
+  margin-right: 60px;
+}
+.signIn-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-left: 68px;
+  margin-right: 62px;
+  margin-top: 55px;
+  margin-bottom: 10px;
+}
+
+.signIn-divider hr {
+  flex: 1;
+  border: none;
+  height: 1px;
+  background: white;
+}
+
+.signIn-divider span {
+  padding: 0 20px;
+}
+*/
