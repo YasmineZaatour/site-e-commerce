@@ -60,61 +60,64 @@ const SignUp = () => {
     }
   };
   return (
-    <div class="w-96 h-120 mt-32 ml-64 p-5 bg-pink-600 text-center rounded-lg signUpContainer">
-      <h2 class="text-white text-4xl mb-10">Inscription</h2>
-      <p class="text-white text-lg mb-4 font-semibold">
+    <div class="w-[522px] h-[640px] mt-32 ml-[600px] p-5 bg-pink-600 text-center rounded-lg signUpContainer">
+      <h2 class="text-white text-[40px] mb-[50px]">Inscription</h2>
+      <p class="text-white text-[20px] mb-[10px] font-semibold">
         Ajouter toutes les informations
       </p>
       <input
-        class="block w-96 h-12 rounded-lg mb-4 border-none mx-auto px-3 text-black"
+        class="block w-[380px] h-[45px] rounded-lg mb-4 border-none mx-auto px-3 text-black"
         type="text"
         placeholder="Nom Prenom"
         value={fullName}
         onChange={(e) => setFullName(e.target.value)}
       />
       <input
-        class="block w-96 h-12 rounded-lg mb-4 border-none mx-auto px-3 text-black"
+        class="block w-[380px] h-[45px] rounded-lg mb-4 border-none mx-auto px-3 text-black"
         type="email"
         placeholder="Email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
       <input
-        class="block w-96 h-12 rounded-lg mb-4 border-none mx-auto px-3 text-black"
+        class="block w-[380px] h-[45px] rounded-lg mb-4 border-none mx-auto px-3 text-black"
         type="password"
         placeholder="Mot de Passe"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
       <input
-        class="block w-96 h-12 rounded-lg mb-4 border-none mx-auto px-3 text-black"
+        class="block w-[380px] h-[45px] rounded-lg mb-4 border-none mx-auto px-3 text-black"
         type="tel"
         placeholder="Numero de telephone"
         value={phone}
         onChange={(e) => setPhone(e.target.value)}
       />
-      <div class="flex items-center text-white mx-16 my-2 signUp-divider">
+      <div class="flex items-center text-white mx-[53px] my-[10px] signUp-divider">
         <hr class="flex-1 border-none h-px bg-white" />
-        <span class="px-4">Ou</span>
+        <span class="px-[20px]">Ou</span>
         <hr class="flex-1 border-none h-px bg-white" />
       </div>
-      <div class="flex justify-center my-4 icons">
+      <div class="flex justify-center mt-[20px] mb-[40px] icons">
         <img
-          class="w-10 h-10 facebook-icon"
+          class="w-[70px] h-[40px] mr-[4px] facebook-icon"
           className="facebook-icon"
           src={facebook}
           alt="Facebook logo"
           onClick={handleSignInWithFacebook}
         />
         <img
-          class="w-10 h-10 google-icon"
+          class="w-[38px] h-[38px] mr-[6px] google-icon "
           className="google-icon"
           src={googleI}
           alt="Google logo"
           onClick={handleSignInWithGoogle}
         />
       </div>
-      <button class="w-96 h-12 bg-blue-500 rounded-lg border-none text-white text-lg font-bold signUp-btn" onClick={handleSignUp}>
+      <button
+        class="w-96 h-12 bg-customBlue rounded-lg border-none text-white text-lg font-bold signUp-btn"
+        onClick={handleSignUp}
+      >
         Continuer
       </button>
     </div>
